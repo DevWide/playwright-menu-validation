@@ -1,0 +1,10 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint:
+      run: "pnpm exec eslint --fix"  # Executa o ESLint com --fix para corrigir automaticamente
+
+pre-push:
+  commands:
+    test:
+      run: "pnpm exec playwright test --headless"  # Executa os testes em modo headless

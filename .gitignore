@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Playwright Test Results
+test-results/
+
+# Capturas de tela e vídeos do Playwright
+screenshots/
+videos/
+
+# Logs do Playwright
+trace-results/
+
+# Arquivos de lock do pnpm
+pnpm-lock.yaml
+
+# Arquivos de logs de depuração e erros
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Arquivos de compilação
+dist/
+build/
+
+# Configurações do ambiente local do editor/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Relatórios de cobertura de código
+coverage/
+
+# Arquivos de configuração de ambiente
+.env
+.env.local

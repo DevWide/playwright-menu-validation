@@ -1,0 +1,17 @@
+{
+  "contactPage": {
+    "contactMenu": "a[data-testid='linkElement'] >> text=Contato",
+    "nameInput": "input#input_comp-kud9p7na",
+    "companyInput": "input#input_comp-kud9p7nn",
+    "emailInput": "input#input_comp-kud9p7np",
+    "phoneInput": "input#input_comp-kud9p7nr2",
+    "messageInput": "textarea#textarea_comp-kud9p7nx2"
+  },
+  "formData": {
+    "name": "Playwright",
+    "company": "Playwright Test",
+    "email": "playwright@email.com",
+    "phone": "11 912120000",
+    "message": "Olá, Sou o Teste do Playwright"
+  }
+}
